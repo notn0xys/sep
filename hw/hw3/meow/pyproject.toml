@@ -1,0 +1,5 @@
+[project]
+name = "PySide Project"
+
+[tool.pyside6-project]
+files = ["history.ui", "main.py", "store_generator.ui", "store_preview.ui", "ui_history.py", "ui_store_generator.py", "ui_store_preview.py"]

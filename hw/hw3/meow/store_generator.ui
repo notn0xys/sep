@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StoreGenerator</class>
+ <widget class="QWidget" name="StoreGenerator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Store Generator</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Segoe UI Historic</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Store Generator</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="nameInput">
+     <property name="placeholderText">
+      <string>Store Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="descriptionInput">
+     <property name="placeholderText">
+      <string>Store Description</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="themeCombo">
+     <item>
+      <property name="text">
+       <string>Black / White</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Purple / Black</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Blue / Light</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Green / Dark</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Orange / Gray</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout">
+     <item>
+      <widget class="QLineEdit" name="imagePathInput">
+       <property name="placeholderText">
+        <string>Image path...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="browseImageButton">
+       <property name="text">
+        <string>Browse</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="historyButton">
+     <property name="text">
+      <string>History</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="previewButton">
+     <property name="text">
+      <string>Preview Store</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
